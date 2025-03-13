@@ -7,8 +7,10 @@ compatibility_date = "2023-01-01"
 [vars]
 API_URL = "https://api.apimo.pro/agencies/23385/properties"
 API_TOKEN = "afaa418252a1dfece10ffa74d2a1fcd0fda914f6"
-PROVIDER_ID =  "3993"
+PROVIDER_ID = "3993"
 
 [build]
 command = "npm install && npm run build"
 
+# Spécifie le fichier principal ici :
+main = "index.js"  # Le fichier principal à déployer
