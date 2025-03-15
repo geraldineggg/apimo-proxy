@@ -3,6 +3,8 @@ type = "javascript"
 account_id = "geraldineggg"
 workers_dev = true
 compatibility_date = "2023-01-01"
+[build]
+command = "npm install"  # Si tu utilises npm, sinon laisse vide
 
 [vars]
 API_URL = "https://api.apimo.pro/agencies/23385/properties"
